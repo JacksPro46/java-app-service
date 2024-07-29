@@ -24,7 +24,7 @@ jobs:
       
       - name: Build with Maven
         run: |
-           cd maven-deployment/complete/pom.xml
+           cd maven-deployment/complete
            mvn clean install
 
       - name: Upload artifact for deployment job
